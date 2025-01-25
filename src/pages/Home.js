@@ -9,7 +9,7 @@ const Home = () => {
       <div style={{ 
       position: 'relative', 
       textAlign: 'center', 
-      // backgroundImage: 'url("/studio2.jpeg")', 
+      backgroundImage: 'url("/studio2.jpeg")', 
       backgroundSize: 'cover', 
       backgroundPosition: 'center', 
       height: '100vh', 
