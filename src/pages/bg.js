@@ -10,7 +10,7 @@ const BackgroundImage = ({ children }) => {
             backgroundSize: 'cover', 
             backgroundPosition: 'center', 
             height: '100vh', 
-            color: "sandybrown",
+            color: "#f26107",
             display: 'flex',
          
             flexDirection: 'column'
