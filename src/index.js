@@ -5,11 +5,13 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
+import BackgroundImage from './pages/bg';
 
 
 
 export default function App() {
   return (
+    <BackgroundImage> 
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
@@ -20,6 +22,7 @@ export default function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </BackgroundImage>
   );
 }
 

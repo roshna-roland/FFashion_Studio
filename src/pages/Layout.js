@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import React from 'react';
 
 const Layout = () => {
   return (
@@ -12,7 +13,9 @@ const Layout = () => {
             <Link style={{ color: "saddlebrown", textDecoration:"none", fontSize: "20px" }}  to="/contact">Suggestions</Link>
           </div>
         </nav>
+     
       </section>
+
       <Outlet />
     </>
   );

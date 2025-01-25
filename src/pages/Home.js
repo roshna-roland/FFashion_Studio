@@ -6,27 +6,17 @@ import { Outlet, Link } from "react-router-dom";
 const Home = () => {
     return(
       <section>
-      <div style={{ 
-      position: 'relative', 
-      textAlign: 'center', 
-      backgroundImage: 'url("/studio2.jpeg")', 
-      backgroundSize: 'cover', 
-      backgroundPosition: 'center', 
-      height: '100vh', 
-      color: "sandybrown",
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      flexDirection: 'column'
-      }}>
-      <div style={{ 
-      position: 'absolute', 
-      top: 0, 
-      left: 0, 
-      right: 0, 
-      bottom: 0, 
-      backgroundColor: 'rgba(36, 33, 33, 0.5)' 
-      }}></div>
+      <div >
+      <div 
+      style={{ 
+      // position: 'absolute', 
+      // top: 0, 
+      // left: 0, 
+      // right: 0, 
+      // bottom: 0, 
+      // backgroundColor: 'rgba(36, 33, 33, 0.5)' 
+      }}
+      ></div>
       <div style={{ position: 'relative', zIndex: 1 }}>
       <h1>Know Your Style</h1>
       <p>Find out what your style is!</p>
